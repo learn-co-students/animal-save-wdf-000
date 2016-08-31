@@ -9,4 +9,9 @@ html {
 }
 
 /* Write your solution here */
-
+@media only screen and (max-width: 1200px) and (min-width: 420px) {
+  #monkey {
+    top: -50px;
+    transform: translate(-50px) rotate(-180deg)
+  }
+}
